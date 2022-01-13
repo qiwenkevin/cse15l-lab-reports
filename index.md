@@ -5,7 +5,7 @@ Testing testing testing
 
 [Recursion](https://qiwenkevin.github.io/cse15l-lab-reports/index.html)
 
-![Goooogle](https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png)
+![Goooogle](https://images.immediate.co.uk/production/volatile/sites/4/2009/07/GettyImages-931270318-43ab672.jpg)
 
 ---
 
