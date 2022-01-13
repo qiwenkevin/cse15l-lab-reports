@@ -1,3 +1,4 @@
-This is Lab Report
-
-Edited on Github Desktop
+# CSE 15L Lab Report
+---
+## Report 1
+Testing testing testing
