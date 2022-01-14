@@ -28,4 +28,17 @@ Now to access this funky terminal incorporated within the VSCode app, there's th
 
 Good good! How wonderfully amazing. You have successfully completed the first part of this tutorioal!
 
+---
 ### Remotely Connecting
+We can use the terminal to connect to the official lab computers in UCSD remotely, I will show you how to do so. 
+
+Mac already has SSH so we needn't worry about other configuration issues
+
+[**Here you can find the username to use for the connection**](https://sdacs.ucsd.edu/~icc/index.php) by entering your profile information. 
+
+Then you can proceed to connect by entering this into your terminal replacing the `zz` with the letters of your account username:
+```
+ssh cs15lwi22zz@ieng6.ucsd.edu
+```
+You can then enter your password to log in (Your entered password will be invisible)
+
