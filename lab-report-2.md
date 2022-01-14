@@ -67,3 +67,24 @@ After using the scp command, my file now appears on the server side as well.
 
 ---
 ## Setting an SSH Key
+`ssh-keygen` is a command that helps to generate keys. This generates two keys, a public key and a private key, the private key is kept for yourself, and the public one given to others to validate your private key. 
+
+This command will create and store your keys in this location in your computer `/Users/username/.ssh/`, the id_rsa file being the private key and the id_rsa.pub being of course the public key. 
+![ssh keys](images/ssh-keygen.png)
+
+You can then copy (psst remember scp from before?) the public key from your computer onto `cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+And bam! Now you can ssh into the server and scp into the server all without the hassle of passwords, and can use them much easier with your keys doing all the validation hard work.
+
+---
+## Optimizing Remote Running
+Now that things have gotten much easier to use with keys, why not try simplifying that process *even* more?
+
+Firstly, to run code on the server without having to enter ssh mode, you can do something like `ssh cs15lwi22aqs@ieng6.ucsd.edu "ls"` to run it directly. We will be abusing this.
+Secondly, to run multiple commands in any terminal on one line, we can simply separate commands with `;`. Like this: `javac blah.java; java blah`. We will be abusing this even more.
+
+Say you wanted to upload a local java file onto the server and then compile and run it. With this great amalgamation one line command, you can do it all in one tap. 
+```
+scp ~/Downloads/WhereAmI.java cs15lwi22aqs@ieng6.ucsd.edu:~/; ssh cs15lwi22aqs@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+Which will directly result in the finished:
+![remote command better](images/better-remote-commands.png)
