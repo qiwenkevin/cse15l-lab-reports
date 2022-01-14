@@ -13,7 +13,7 @@ Including but not limited to:
 So let us get started!
 
 ---
-### Installing VSCode
+## Installing VSCode
 VSCode will be the main programming thingamajig you will be using throughout the course. 
 
 You can get it from this neat [site](https://code.visualstudio.com/).
@@ -30,7 +30,7 @@ Now to access this funky terminal incorporated within the VSCode app, there's th
 Good good! How wonderfully amazing. You have successfully completed the first part of this tutorioal!
 
 ---
-### Remotely Connecting
+## Remotely Connecting
 We can use the terminal to connect to the official lab computers in UCSD remotely, I will show you how to do so. 
 
 Mac already has SSH so we needn't worry about other configuration issues
@@ -45,14 +45,14 @@ You can then enter your password to log in (Your entered password will be invisi
 ![Terminal SSH](images/terminal-ssh.png)
 
 ---
-### Trying Some Commands
+## Trying Some Commands
 Some commands you can use in the terminal to explore this remote server are `ls` and `cd`.
 ![Terminal Commands](images/terminal-commands.png)
 You can also investigate other parameters for commands, like `ls -a ` which will show all files, even hidden ones. 
 ![Terminal Command 2](images/terminal-command-2.png)
 
 ---
-### Moving Files with scp
+## Moving Files with scp
 `scp` is a command you can use to copy files from your computer over to the server. You can use this to send files you want to run over to the server to run them there. 
 For example, to copy a file from your downloads folder to the server, you simply have to use:
 ```
@@ -66,4 +66,4 @@ As you can see here:
 After using the scp command, my file now appears on the server side as well. 
 
 ---
-### Setting an SSH Key
+## Setting an SSH Key
