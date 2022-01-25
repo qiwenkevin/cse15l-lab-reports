@@ -105,5 +105,5 @@ Say you wanted to upload a local java file onto the server and then compile and 
 scp ~/Downloads/WhereAmI.java cs15lwi22aqs@ieng6.ucsd.edu:~/; ssh cs15lwi22aqs@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 
-Which will directly result in the finished:
+Which will directly result in the finished in only two keystrokes! An up arrow key to recall that last command, and an enter to execute it, as simple as it gets:
 ![remote command better](images/better-remote-commands.png)
