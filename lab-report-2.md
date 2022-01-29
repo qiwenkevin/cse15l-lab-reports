@@ -36,6 +36,7 @@ Good good! How wonderfully amazing. You have successfully completed the first pa
 
 ## Remotely Connecting
 
+
 We can use the terminal to connect to the official lab computers in UCSD remotely, I will show you how to do so.
 
 Mac already has SSH so we needn't worry about other configuration issues
