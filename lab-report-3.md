@@ -27,7 +27,7 @@ The fix was to check if the next open bracket was found, so we can break the loo
 
 ## Bug 2: Infinite loop when [] is used without ()
 
-![bug-2](images/bug-3.png)
+![bug-2](images/bug-2.png)
 
 ### Source of the issue
 
@@ -38,13 +38,13 @@ The fix was to check if the next open bracket was found, so we can break the loo
 ![symptom2](images/symptom-2.png)
 
 The bug here is caused by the input of only brackets and no use of parentheses, resulting in the symptom of infinite loop.
-The fix was to move the check up, so the issue 
+The fix was to add a check to see if openParen was right after the closeBracket so that if it is not found there, we will move the current index forwards, and continue to the next loop.
 
 ---
 
 ## Bug 3: [] and () used apart and not for links
 
-![bug-3](images/bug-3.png)
+![bug-3](images/bug-2.png)
 
 ### Source of the issue
 
@@ -53,3 +53,6 @@ The fix was to move the check up, so the issue
 ### Symptom
 
 ![symptom3](images/symptom-3.png)
+
+The bug here is caused by the use of brackets and parenetheses separately, resulting in the symptom of links where there shouldn't be any.
+The fix was to add the same check as above to see if openParen was right after the closeBracket so that if it is not found there, we will move the current index forwards, and continue to the next loop. Skipping the incorrect brackets.
