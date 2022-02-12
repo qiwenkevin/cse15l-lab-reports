@@ -15,6 +15,8 @@ Week 4
 ### Source of the issue
 
 ![fail1](images/fail-1.png)
+#### [Here is the link to file](test1.md)
+
 
 ### Symptom
 
@@ -32,6 +34,8 @@ The fix was to check if the next open bracket was found, so we can break the loo
 ### Source of the issue
 
 ![fail2](images/fail-2.png)
+#### [Here is the link to file](test2.md)
+
 
 ### Symptom
 
@@ -49,6 +53,8 @@ The fix was to add a check to see if openParen was right after the closeBracket 
 ### Source of the issue
 
 ![fail3](images/fail-3.png)
+#### [Here is the link to file](test3.md)
+
 
 ### Symptom
 
