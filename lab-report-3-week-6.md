@@ -16,6 +16,10 @@ Then, with this config setup, I can also copy files much easier, using only `scp
 
 ---
 
+# Ignore everything below, the first option is chosen.
+
+<s>
+
 ## Setup Github Access from ieng6
 
 ![github ssh](images/github%20ssh.png)
@@ -42,5 +46,13 @@ Here I am able to directly push the new update to github with the ssh keys.
 
 ![scp copy](images/scp-r-copy.png)
 
-Here I can copy my whole markdown-parse directory into my ieng6 account. 
+Here I can copy my whole markdown-parse directory into my ieng6 account.
 
+![mdparse ieng6](images/run%20markdown-parse%20ieng6.png)
+
+Here you can see that the copied directory works and I can compile and run all the tests.
+
+Next, say we wanted to do this with one command, well, using `scp -r ~/Documents/GitHub/markdown-parse ieng6:~/; ssh ieng6 "cd ~/markdown-parse; make Test"` we can make that happen.
+
+![copy dir](images/copy%20dir.png)
+![run part](images/run%20part%20of%20long%20command.png)
