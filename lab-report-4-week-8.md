@@ -1,7 +1,9 @@
 # Lab Report 4
 
 Here are the repositories used in this lab:
+
 [My Group's Repo](https://github.com/JaredJose/markdown-parse)
+
 [Reviewed Group's Repo](https://github.com/christopherthomason/markdown-parse)
 
 ## Snippet 1
